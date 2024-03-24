@@ -1,0 +1,138 @@
+*{
+    color: white;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    
+}
+.navbar{
+    padding: 0;
+    margin: 0;
+}
+.navdiv{
+    background-color: #444444;
+}
+.company-logo,a{
+    text-decoration: none;
+    color: white;
+    margin-top: -9px;
+    margin-right: 10px;
+}
+.login-div{
+    display: flex;
+    flex-direction: row;
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-item{
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    margin: 0;
+}
+.expand-button{
+    margin: auto 0 auto 10px;
+}
+.option-button{
+    margin: auto 0 auto 10px;
+}
+.login-button{
+    margin: auto 10px auto 0;
+    text-decoration: solid;
+}
+.body-top{
+    line-height: 20px;
+    display: flex;
+    flex-flow: row;
+}
+.body-content{
+    width: 50%;
+    height: 500px;
+    margin: 50px auto ;
+}
+.back-arrow{
+    line-height: 100px;
+    font-size: 80px;
+    margin-top: 10px;
+}
+.double-border{
+    border: 3px solid;
+    border-style: double;
+    padding: 0 20px;
+}
+.title{
+    flex-grow: 1;
+    text-align: center;
+    line-height: 100px;
+    font-size: 70px;
+}
+.content{
+    border: 3px solid;
+    border-style: double;
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px 120px;
+}
+.tasks, .login-form{
+    font-size: 25px;
+    display: flex;
+    flex-direction:column ;
+}
+.task{
+    flex-grow: 1;
+    display: flex;
+    margin-bottom: 25px;
+}
+.task-content{
+    flex-grow: 1;
+}
+.check-button{
+    width: 70px;
+}
+.delete-button{
+    width: 40px;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+.input{
+    flex-grow: 1;
+    background-color: transparent;
+}
+.send-button{
+    width: 40px;
+}
+.login-body{
+    width: 600px;
+}
+.email-input, .password-input{
+    border: 3px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 10px 25px;
+    width: 300px;
+}
+.email-div,.password-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.login-form-button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 25px auto 15px;
+}
+/* .login-form-button:hover{
+    background-color: transparent;
+} */
+.new-user{
+    align-self: flex-end;
+    font-size: 15px;
+}
